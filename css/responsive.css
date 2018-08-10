@@ -1,8 +1,15 @@
 /* Smartphones (portrait and landscape) ----------- */
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
   /* Styles */
-    .lead {
-        font-size: 12px;
-    }
+  .lead {
+    font-size: 12px;
+  }
+}
+
+/* Smartphones (landscape) ----------- */
+@media only screen and (min-width: 321px) {
+  /* Styles */
+  .lead {
+    font-size: 12px;
   }
 }
