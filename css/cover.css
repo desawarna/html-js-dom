@@ -47,6 +47,7 @@ body {
   background-origin: padding-box, padding-box;
   background-clip: border-box, border-box;
   background-size: cover;
+  background-position: center;
 }
 
 .cover-container {
