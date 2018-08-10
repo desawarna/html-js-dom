@@ -25,18 +25,6 @@ a:hover {
 html,
 body {
   height: 100%;
-  background-size: cover;
-  linear-gradient(to bottom, rgba(0,0,0,0.8) 0%, rgba(0,0,0,0.75) 100%), url(../img/6.jpg) no-repeat left top;
-  background-color: rgba(0, 0, 0, 0);
-  background-position-x: 0%, left;
-  background-position-y: 0%, top;
-  background-repeat: repeat, no-repeat;
-  background-attachment: scroll, scroll;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0.75) 100%), url(../img/bumi.jpg);
-  background-size: auto auto, auto auto;
-  background-origin: padding-box, padding-box;
-  background-clip: border-box, border-box;
-  background-size: cover;
 }
 
 body {
@@ -45,6 +33,20 @@ body {
   color: #fff;
   text-shadow: 0 0.05rem 0.1rem rgba(0, 0, 0, 0.5);
   box-shadow: inset 0 0 5rem rgba(0, 0, 0, 0.5);
+  background-color: rgba(0, 0, 0, 0);
+  background-position-x: 0%, left;
+  background-position-y: 0%, top;
+  background-repeat: repeat, no-repeat;
+  background-attachment: scroll, scroll;
+  background-image: linear-gradient(
+      rgba(0, 0, 0, 0.8) 0%,
+      rgba(0, 0, 0, 0.75) 100%
+    ),
+    url(../img/bumi.jpg);
+  background-size: auto auto, auto auto;
+  background-origin: padding-box, padding-box;
+  background-clip: border-box, border-box;
+  background-size: cover;
 }
 
 .cover-container {
