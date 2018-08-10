@@ -36,8 +36,7 @@ body {
   background-size: auto auto, auto auto;
   background-origin: padding-box, padding-box;
   background-clip: border-box, border-box;
-background-size: cover;
-background-attachment: fixed;
+  background-size: cover;
 }
 
 body {
@@ -61,6 +60,7 @@ body {
 
 .masthead-brand {
   margin-bottom: 0;
+  font-size: 14px;
 }
 
 .nav-masthead .nav-link {
@@ -69,6 +69,7 @@ body {
   color: rgba(255, 255, 255, 0.5);
   background-color: transparent;
   border-bottom: 0.25rem solid transparent;
+  font-size: 12px;
 }
 
 .nav-masthead .nav-link:hover,
@@ -110,4 +111,9 @@ body {
  */
 .mastfoot {
   color: #fff;
+  font-size: 12px;
+}
+.lead {
+  font-size: 16px;
+  font-weight: 300;
 }
