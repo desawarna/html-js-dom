@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="author" content="M. Zaemakhrus">
+    <link rel="icon" href="icon.png">
+
+    <title>Zaemakhrus Tugas Home Bootstrap</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/cover.css" rel="stylesheet">
+</head>
+
+<body class="text-center">
+
+    <div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
+        <header class="masthead mb-auto">
+            <div class="inner">
+                <h3 class="masthead-brand">Zaemakhrus</h3>
+                <nav class="nav nav-masthead justify-content-center">
+                    <a class="nav-link active" href="index.html">Home</a>
+                    <a class="nav-link" href="https://zaemakhrus-bootstrap.netlify.com/">Tugas BS</a>
+                    <a class="nav-link" href="https://zaemakhrus-santrenkoding.netlify.com/">Tugas Clone SK</a>
+                </nav>
+            </div>
+        </header>
+
+        <main role="main" class="inner cover">
+            <h1 class="cover-heading">JavaScript DOM</h1>
+            <p class="lead">Di alam ada siang ada malam, ada besar ada kecil , ada hitam ada putih, semua berpasangan untuk membentuk keseimbangan.
+                Berikut adalah keseimbangan matematika ada tambah ada kurang.Silahkan klik tambah buat menambah point, sedangkan
+                klik kurang buat mengurangi point</p>
+
+            <div id="input_div">
+                <h2 id="count">0</h2>
+                <!-- <input type="text" size="25" value="1" id="count"> -->
+                <input type="button" value="Kurang -" id="moins" class="btn-danger btn" onclick="minus()">
+                <input type="button" value="Tambah +" id="plus" class="btn-success btn" onclick="plus()">
+            </div>
+        </main>
+
+        <footer class="mastfoot mt-auto">
+            <div class="inner">
+                <p> Zaemakhrus dibuat untuk memenuhi tugas JavaScript DOM , Semarang 10 Agustus 2018</p>
+            </div>
+        </footer>
+    </div>
+
+    <script>
+        var count = 1;
+        var countEl = document.getElementById("count");
+        function plus() {
+            count++;
+            countEl.innerHTML = count;
+        }
+        function minus() {
+            if (count > 1) {
+                count--;
+                countEl.innerHTML = count;
+            }
+        }
+    </script>
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="js/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script>window.jQuery || document.write('<script src="js/vendor/jquery-slim.min.js"><\/script>')</script>
+    <script src="js/vendor/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+</body>
+
+</html>
